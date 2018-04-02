@@ -1,0 +1,28 @@
+{
+  "name": "betex-ico",
+  "version": "1.0.0",
+  "description": "Betex ICO solidity contracts",
+  "main": "contracts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eth-hd-wallet": "^0.3.0",
+    "truffle-hdwallet-provider": "0.0.3",
+    "unix-timestamp": "^0.2.0",
+    "zeppelin-solidity": "^1.8.0"
+  },
+  "devDependencies": {
+    "solium": "^1.1.3"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "author": "Anatolii Kucheruk <akucheruk@vareger.com>",
+  "contributors": [
+    "Mykhaylo Khoroshun <mkhoroshun@vareger.com>"
+  ],
+  "license": "MIT"
+}
